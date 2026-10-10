@@ -1,0 +1,78 @@
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# YOLO / ML generated files
+*.pt
+*.onnx
+*.weights
+
+# Generated evidence
+snapshots/
+
+# Test/generated media
+test_videos/
+test_images/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Datasets
+dataset/
+SH17_raw/
+
+# Training outputs
+runs/
+yolov7/runs/
+
+# Model weights
+*.pt
+*.pth
+
+# Snapshots
+snapshots/
+
+# Local configuration
+restricted_zone.txt
+# Include the trained model required by the application
+!models/best.pt.env
+.env.*
+!.env.example
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+snapshots/
+dataset/
+runs/
+SH17_raw/
+test_images/
+test_videos/
+weights/
+Backup/
+traced_model.pt
